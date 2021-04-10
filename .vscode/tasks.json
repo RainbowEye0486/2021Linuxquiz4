@@ -6,9 +6,11 @@
             "command": "/usr/bin/gcc",
             "args": [
                 "-g",
-                "${file}",
+                "-pthread",
+                "/home/hastur/linux2021/test4/bbpModefy.c",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "/home/hastur/linux2021/test4/bbpModefy",
+                "-lm"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

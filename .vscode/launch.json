@@ -8,7 +8,7 @@
             "name": "gcc - 建置及偵錯使用中的檔案",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "/home/hastur/linux2021/test4/bbpModefy",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

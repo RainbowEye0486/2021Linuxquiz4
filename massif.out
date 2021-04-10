@@ -1,0 +1,648 @@
+desc: --stacks=yes --time-unit=i --massif-out-file=massif.out
+cmd: ./bbpModefy
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=148939
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1096
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=241120
+mem_heap_B=544
+mem_heap_extra_B=56
+mem_stacks_B=62048
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=419123
+mem_heap_B=94672
+mem_heap_extra_B=20816
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 94672 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 67392 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 67392 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 67392 0x109FFD: main (bbpModefy.c:421)
+ n1: 25920 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 25920 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=532858
+mem_heap_B=154864
+mem_heap_extra_B=34192
+mem_stacks_B=60472
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=631827
+mem_heap_B=207280
+mem_heap_extra_B=45840
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 207280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 148720 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 148720 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 148720 0x109FFD: main (bbpModefy.c:421)
+ n1: 57200 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 57200 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=765923
+mem_heap_B=278272
+mem_heap_extra_B=61616
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 278272 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 199992 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 199992 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 199992 0x109FFD: main (bbpModefy.c:421)
+ n1: 76920 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 76920 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=874723
+mem_heap_B=335872
+mem_heap_extra_B=74416
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 335872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 241592 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 241592 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 241592 0x109FFD: main (bbpModefy.c:421)
+ n1: 92920 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 92920 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=968291
+mem_heap_B=385408
+mem_heap_extra_B=85424
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 385408 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 277368 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 277368 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 277368 0x109FFD: main (bbpModefy.c:421)
+ n1: 106680 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 106680 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=1112723
+mem_heap_B=461872
+mem_heap_extra_B=102416
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 461872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 332592 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 332592 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 332592 0x109FFD: main (bbpModefy.c:421)
+ n1: 127920 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 127920 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=1281635
+mem_heap_B=551296
+mem_heap_extra_B=122288
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 551296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 397176 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 397176 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 397176 0x109FFD: main (bbpModefy.c:421)
+ n1: 152760 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 152760 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=1389075
+mem_heap_B=608176
+mem_heap_extra_B=134928
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 608176 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 438256 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 438256 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 438256 0x109FFD: main (bbpModefy.c:421)
+ n1: 168560 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 168560 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=1492979
+mem_heap_B=663184
+mem_heap_extra_B=147152
+mem_stacks_B=60512
+heap_tree=detailed
+n3: 663184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 477984 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 477984 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 477984 0x109FFD: main (bbpModefy.c:421)
+ n1: 183840 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 183840 0x109FFD: main (bbpModefy.c:421)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=1622449
+mem_heap_B=721672
+mem_heap_extra_B=160448
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1752127
+mem_heap_B=722944
+mem_heap_extra_B=162992
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1900339
+mem_heap_B=724384
+mem_heap_extra_B=165872
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1995046
+mem_heap_B=725304
+mem_heap_extra_B=167712
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2143366
+mem_heap_B=726744
+mem_heap_extra_B=170592
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2324510
+mem_heap_B=728504
+mem_heap_extra_B=174112
+mem_stacks_B=61664
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2410174
+mem_heap_B=729336
+mem_heap_extra_B=175776
+mem_stacks_B=61624
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2553040
+mem_heap_B=730720
+mem_heap_extra_B=178544
+mem_stacks_B=61624
+heap_tree=detailed
+n3: 730720 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520104 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 520104 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 520104 0x109FFD: main (bbpModefy.c:421)
+ n1: 200040 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 200040 0x109FFD: main (bbpModefy.c:421)
+ n0: 10576 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=2655758
+mem_heap_B=731720
+mem_heap_extra_B=180544
+mem_stacks_B=61664
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2741422
+mem_heap_B=732552
+mem_heap_extra_B=182208
+mem_stacks_B=61624
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2884288
+mem_heap_B=733936
+mem_heap_extra_B=184976
+mem_stacks_B=61624
+heap_tree=detailed
+n4: 733936 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520104 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 520104 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 520104 0x109FFD: main (bbpModefy.c:421)
+ n1: 200040 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 200040 0x109FFD: main (bbpModefy.c:421)
+ n1: 12432 0x109F22: bpp (bbpModefy.c:405)
+  n1: 12432 0x109677: jobqueue_fetch (bbpModefy.c:228)
+   n1: 12432 0x51DA6D9: start_thread (pthread_create.c:463)
+    n0: 12432 0x551371D: clone (clone.S:95)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=2990302
+mem_heap_B=734968
+mem_heap_extra_B=187040
+mem_stacks_B=61664
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3075966
+mem_heap_B=735800
+mem_heap_extra_B=188704
+mem_stacks_B=61624
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3218832
+mem_heap_B=737184
+mem_heap_extra_B=191472
+mem_stacks_B=61624
+heap_tree=detailed
+n4: 737184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520104 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 520104 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 520104 0x109FFD: main (bbpModefy.c:421)
+ n1: 200040 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 200040 0x109FFD: main (bbpModefy.c:421)
+ n1: 15680 0x109F22: bpp (bbpModefy.c:405)
+  n1: 15680 0x109677: jobqueue_fetch (bbpModefy.c:228)
+   n1: 15680 0x51DA6D9: start_thread (pthread_create.c:463)
+    n0: 15680 0x551371D: clone (clone.S:95)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=3328142
+mem_heap_B=738248
+mem_heap_extra_B=193600
+mem_stacks_B=61664
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3413806
+mem_heap_B=739080
+mem_heap_extra_B=195264
+mem_stacks_B=61624
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=3556672
+mem_heap_B=740464
+mem_heap_extra_B=198032
+mem_stacks_B=61624
+heap_tree=detailed
+n4: 740464 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520104 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 520104 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 520104 0x109FFD: main (bbpModefy.c:421)
+ n1: 200040 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 200040 0x109FFD: main (bbpModefy.c:421)
+ n1: 18960 0x109F22: bpp (bbpModefy.c:405)
+  n1: 18960 0x109677: jobqueue_fetch (bbpModefy.c:228)
+   n1: 18960 0x51DA6D9: start_thread (pthread_create.c:463)
+    n0: 18960 0x551371D: clone (clone.S:95)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=3658740
+mem_heap_B=741456
+mem_heap_extra_B=200016
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=3751814
+mem_heap_B=742360
+mem_heap_extra_B=201824
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=3891525
+mem_heap_B=743720
+mem_heap_extra_B=204544
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=4003172
+mem_heap_B=744800
+mem_heap_extra_B=206704
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=4096246
+mem_heap_B=745704
+mem_heap_extra_B=208512
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=4235957
+mem_heap_B=747064
+mem_heap_extra_B=211232
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=4350900
+mem_heap_B=748176
+mem_heap_extra_B=213456
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=4443974
+mem_heap_B=749080
+mem_heap_extra_B=215264
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=4583685
+mem_heap_B=750440
+mem_heap_extra_B=217984
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=4701924
+mem_heap_B=751584
+mem_heap_extra_B=220272
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=4794998
+mem_heap_B=752488
+mem_heap_extra_B=222080
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=4934709
+mem_heap_B=753848
+mem_heap_extra_B=224800
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=5057068
+mem_heap_B=755032
+mem_heap_extra_B=227168
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=5150142
+mem_heap_B=755936
+mem_heap_extra_B=228976
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=5289853
+mem_heap_B=757296
+mem_heap_extra_B=231696
+mem_stacks_B=61904
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=5415508
+mem_heap_B=758512
+mem_heap_extra_B=234128
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=5508582
+mem_heap_B=759416
+mem_heap_extra_B=235936
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=5601694
+mem_heap_B=760320
+mem_heap_extra_B=237744
+mem_stacks_B=61616
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=5725321
+mem_heap_B=761368
+mem_heap_extra_B=240096
+mem_stacks_B=62376
+heap_tree=peak
+n4: 761368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 520000 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 520000 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 520000 0x109FFD: main (bbpModefy.c:421)
+ n1: 200000 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 200000 0x109FFD: main (bbpModefy.c:421)
+ n1: 40008 0x109F22: bpp (bbpModefy.c:405)
+  n1: 40008 0x109677: jobqueue_fetch (bbpModefy.c:228)
+   n1: 40008 0x51DA6D9: start_thread (pthread_create.c:463)
+    n0: 40008 0x551371D: clone (clone.S:95)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=5818382
+mem_heap_B=708952
+mem_heap_extra_B=228448
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=5904062
+mem_heap_B=660568
+mem_heap_extra_B=217696
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=5989742
+mem_heap_B=612184
+mem_heap_extra_B=206944
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=6075422
+mem_heap_B=563800
+mem_heap_extra_B=196192
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=6161102
+mem_heap_B=515416
+mem_heap_extra_B=185440
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=6246782
+mem_heap_B=467032
+mem_heap_extra_B=174688
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=6332462
+mem_heap_B=418648
+mem_heap_extra_B=163936
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6418142
+mem_heap_B=370264
+mem_heap_extra_B=153184
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=6503822
+mem_heap_B=321880
+mem_heap_extra_B=142432
+mem_stacks_B=62208
+heap_tree=detailed
+n4: 321880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 202592 0x108FF9: tpool_future_create (bbpModefy.c:88)
+  n1: 202592 0x109CCE: tpool_apply (bbpModefy.c:363)
+   n0: 202592 0x109FFD: main (bbpModefy.c:421)
+ n1: 77920 0x109CC5: tpool_apply (bbpModefy.c:362)
+  n0: 77920 0x109FFD: main (bbpModefy.c:421)
+ n1: 40008 0x109F22: bpp (bbpModefy.c:405)
+  n1: 40008 0x109677: jobqueue_fetch (bbpModefy.c:228)
+   n1: 40008 0x51DA6D9: start_thread (pthread_create.c:463)
+    n0: 40008 0x551371D: clone (clone.S:95)
+ n0: 1360 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=6589502
+mem_heap_B=273496
+mem_heap_extra_B=131680
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=6675182
+mem_heap_B=225112
+mem_heap_extra_B=120928
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=6760862
+mem_heap_B=176728
+mem_heap_extra_B=110176
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=6846542
+mem_heap_B=128344
+mem_heap_extra_B=99424
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=6932222
+mem_heap_B=79960
+mem_heap_extra_B=88672
+mem_stacks_B=62208
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=7017980
+mem_heap_B=43494
+mem_heap_extra_B=80266
+mem_stacks_B=64552
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=7103655
+mem_heap_B=43062
+mem_heap_extra_B=80170
+mem_stacks_B=62592
+heap_tree=empty
